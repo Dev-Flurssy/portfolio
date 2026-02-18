@@ -31,7 +31,7 @@ export default function Footer() {
               Bisola Alayande
             </h3>
             <p className="text-slate-600 dark:text-slate-400 text-sm">
-              Software Developer passionate about building impactful web applications and mentoring the next generation of developers.
+              Software Developer & Emerging AI Engineer passionate about building impactful web applications, exploring AI solutions, and mentoring the next generation of developers.
             </p>
           </div>
 
