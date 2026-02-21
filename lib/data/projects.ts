@@ -15,8 +15,8 @@ export const projects: Project[] = [
     name: 'NEU Generator',
     description: 'A Next.js application built to practice TypeScript and server-side rendering concepts.',
     technologies: ['Next.js', 'TypeScript', 'React', 'Prisma', 'MongoDB'],
-    linkType: 'both',
-    demoUrl: 'https://neu-dawt.vercel.app/',
+    linkType: 'github',
+    // demoUrl: 'https://neu-dawt.vercel.app/', // Uncomment when live link is verified
     githubUrl: 'https://github.com/Dev-Flurssy/neu',
     image: '/images/Neu1.jpg'
   },
