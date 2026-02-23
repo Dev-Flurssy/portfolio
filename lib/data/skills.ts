@@ -35,6 +35,7 @@ export const skillCategories: SkillCategory[] = [
     category: 'future',
     label: 'Interested in Learning',
     skills: [
+      'PostgreSQL',
       'C#',
       '.NET',
       'React Native', 
