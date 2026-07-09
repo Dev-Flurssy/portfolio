@@ -31,7 +31,7 @@ export default function Footer() {
               Bisola Alayande
             </h3>
             <p className="text-slate-600 dark:text-slate-400 text-sm">
-              Software Developer & Emerging AI Engineer passionate about building impactful web applications, exploring AI solutions, and mentoring the next generation of developers.
+              AI Engineering student and Full-Stack Developer building practical software that combines machine learning, data analysis, and intuitive web interfaces.
             </p>
           </div>
 
@@ -49,6 +49,16 @@ export default function Footer() {
                   </a>
                 </li>
               ))}
+              <li>
+                <a
+                  href="/resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple font-semibold hover:underline text-sm"
+                >
+                  View CV ↗
+                </a>
+              </li>
             </ul>
           </div>
 

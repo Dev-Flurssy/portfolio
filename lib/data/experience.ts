@@ -60,13 +60,5 @@ export const volunteerExperience = [
       'Provided free academic support in Mathematics, Physics, and Chemistry to high school students. Specialized in simplifying complex topics using relatable examples, which boosted student confidence and performance.',
     current: false,
   },
-  {
-    id: 'rotaract',
-    organization: 'Rotaract Mauritius',
-    role: 'Volunteer',
-    period: 'Past',
-    description:
-      'Participated in community outreach and charity projects supporting local initiatives and underprivileged groups.',
-    current: false,
-  },
+  
 ];

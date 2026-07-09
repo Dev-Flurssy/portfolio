@@ -44,8 +44,7 @@ export default function Hero() {
               data processing, and intuitive user interfaces to solve real-world problems.
               <br /><br />
               Currently learning <span className="text-purple font-semibold">data analysis with Pandas, NumPy, Matplotlib, and Seaborn</span>, 
-              I'm building projects in dashboard development, recommendation systems, and data visualization. 
-              <span className="font-semibold"> Actively seeking AI/ML or Full-Stack Developer internship opportunities in Cyprus or remotely worldwide.</span>
+              I'm building projects in dashboard development, recommendation systems, and data visualization.
             </motion.p>
 
             <motion.div

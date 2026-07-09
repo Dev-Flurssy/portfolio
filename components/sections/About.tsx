@@ -65,7 +65,7 @@ export default function About() {
 
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
               When I'm not building things, you'll find me hiking, experimenting in the kitchen, brewing healthy teas, 
-              or unwinding with a good drama — little rituals that keep me balanced and creatively charged.
+              or unwinding with a good drama, little rituals that keep me balanced and creatively charged.<br/>
               Thanks for stopping by!
             </p>
           </motion.div>

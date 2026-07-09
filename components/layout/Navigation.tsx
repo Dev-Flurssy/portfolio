@@ -73,6 +73,14 @@ export default function Navigation() {
                 {item.label}
               </a>
             ))}
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-semibold px-3 py-1.5 border border-purple text-purple rounded-lg hover:bg-purple hover:text-white transition-all"
+            >
+              View CV
+            </a>
             <ThemeToggle />
           </div>
 
@@ -114,6 +122,14 @@ export default function Navigation() {
                   {item.label}
                 </a>
               ))}
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block py-2 text-sm font-semibold text-purple hover:underline"
+              >
+                View CV ↗
+              </a>
             </div>
           </motion.div>
         )}

@@ -8,7 +8,7 @@ import ProjectCard from '../ui/ProjectCard';
 export default function Projects() {
   return (
     <section id="projects" className="py-20 px-4 bg-slate-50 dark:bg-slate-900">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -16,14 +16,17 @@ export default function Projects() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl font-bold mb-4 text-center">
-            <span className="bg-gradient-to-r from-purple to-teal bg-clip-text text-transparent">Projects</span>
+            <span className="bg-gradient-to-r from-purple to-teal bg-clip-text text-transparent">
+              Projects
+            </span>
           </h2>
           <p className="text-center text-slate-600 dark:text-slate-400 mb-12 max-w-2xl mx-auto">
             A mix of AI-powered tools, data science projects, and full-stack web applications
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* 1 col mobile → 2 col tablet + desktop */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
           {projects.map((project, index) => (
             <ProjectCard key={project.id} project={project} index={index} />
           ))}
