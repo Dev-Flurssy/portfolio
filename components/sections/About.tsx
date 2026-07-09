@@ -44,30 +44,29 @@ export default function About() {
           >
             <h3 className="text-2xl font-bold text-purple mb-4">Who I Am</h3>
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-              I'm a software developer and AI Engineering student with a passion for creating elegant 
-              solutions to complex problems. What began as simple curiosity has grown into a focused 
-              journey in building impactful web applications, with plans to dive deeper into AI 
-              engineering in the near future.
+              I'm a proactive and detail-oriented <span className="font-semibold text-purple">Artificial Intelligence Engineering student</span> with 
+              a passion for building meaningful digital products. I enjoy solving problems, learning new technologies, 
+              and taking ownership of projects from idea to execution.
             </p>
 
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-              I value clean, maintainable code and enjoy staying current with modern technologies.
-              Outside of coding, I'm usually reading technical, leadership, or self‑development books 
-              to broaden my perspective and sharpen my thinking. I'm also learning how to contribute 
-              to open‑source projects and continuously strengthening my core programming skills.
+              With hands-on experience developing dashboards, building tools, analyzing data, and working across both 
+              frontend and backend environments, I bring curiosity, adaptability, and a strong foundation in 
+              <span className="font-semibold"> Python, React, and data processing</span>. I'm currently deepening my 
+              skills in <span className="font-semibold">data analysis with Pandas, NumPy, Matplotlib, and Seaborn</span>, 
+              while building projects that combine machine learning and intuitive user interfaces.
             </p>
 
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-              When I'm not deep in tech, you'll probably find me hiking to refresh my mind, 
-              experimenting in the kitchen (hopefully it doesn't taste like disaster), stretching or 
-              meditating to clear my thoughts, brewing healthy teas, or unwinding with a good drama. 
-              These little rituals keep me balanced, calm, and creatively charged.
+              I value clean, maintainable code and believe the best software is both technically sound and 
+              user-friendly. Outside of coding, I read widely across tech, leadership, and self-development, 
+              contribute to community initiatives, and mentor aspiring developers through DevByte and She Builds Tech.
             </p>
 
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-              I love connecting with people, learning from different perspectives, and collaborating 
-              on meaningful, innovative projects. It's great to virtually meet you. Thanks for stopping by 
-              my portfolio.
+              When I'm not building things, you'll find me hiking, experimenting in the kitchen, brewing healthy teas, 
+              or unwinding with a good drama — little rituals that keep me balanced and creatively charged.
+              Thanks for stopping by!
             </p>
           </motion.div>
 
@@ -85,28 +84,35 @@ export default function About() {
                 <div className="w-2 h-2 bg-purple rounded-full mt-2"></div>
                 <div>
                   <p className="font-semibold text-slate-800 dark:text-slate-200">Location</p>
-                  <p className="text-slate-600 dark:text-slate-400">Nicosia, Cyprus (open to remote opportunities!)</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-purple rounded-full mt-2"></div>
-                <div>
-                  <p className="font-semibold text-slate-800 dark:text-slate-200">Current Role</p>
-                  <p className="text-slate-600 dark:text-slate-400">Software Developer Intern at NEU</p>
+                  <p className="text-slate-600 dark:text-slate-400">Nicosia, Cyprus — open to remote opportunities worldwide</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-purple rounded-full mt-2"></div>
                 <div>
                   <p className="font-semibold text-slate-800 dark:text-slate-200">Education</p>
-                  <p className="text-slate-600 dark:text-slate-400">Computer Science & AI Engineering Student</p>
+                  <p className="text-slate-600 dark:text-slate-400">B.Sc. Artificial Intelligence Engineering — Near East University</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-purple rounded-full mt-2"></div>
                 <div>
-                  <p className="font-semibold text-slate-800 dark:text-slate-200">Learning Style</p>
-                  <p className="text-slate-600 dark:text-slate-400">Obsessed with learning (some people call me a nerd)</p>
+                  <p className="font-semibold text-slate-800 dark:text-slate-200">Current Focus</p>
+                  <p className="text-slate-600 dark:text-slate-400">Data analysis with Python, AI-powered tools, full-stack applications</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="w-2 h-2 bg-purple rounded-full mt-2"></div>
+                <div>
+                  <p className="font-semibold text-slate-800 dark:text-slate-200">Target Roles</p>
+                  <p className="text-slate-600 dark:text-slate-400">AI/ML Intern · Full-Stack Developer · Software Engineer Intern</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="w-2 h-2 bg-purple rounded-full mt-2"></div>
+                <div>
+                  <p className="font-semibold text-slate-800 dark:text-slate-200">Languages</p>
+                  <p className="text-slate-600 dark:text-slate-400">English (Fluent)</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -114,13 +120,6 @@ export default function About() {
                 <div>
                   <p className="font-semibold text-slate-800 dark:text-slate-200">Fun Fact</p>
                   <p className="text-slate-600 dark:text-slate-400">I debug code better after a good rest and some tea</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-purple rounded-full mt-2"></div>
-                <div>
-                  <p className="font-semibold text-slate-800 dark:text-slate-200">Availability</p>
-                  <p className="text-slate-600 dark:text-slate-400">Open to new opportunities (especially if they involve AI!)</p>
                 </div>
               </div>
             </div>

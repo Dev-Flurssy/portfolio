@@ -19,7 +19,7 @@ export default function Projects() {
             <span className="bg-gradient-to-r from-purple to-teal bg-clip-text text-transparent">Projects</span>
           </h2>
           <p className="text-center text-slate-600 dark:text-slate-400 mb-12 max-w-2xl mx-auto">
-            Here are some of my recent projects showcasing my skills in web development
+            A mix of AI-powered tools, data science projects, and full-stack web applications
           </p>
         </motion.div>
 

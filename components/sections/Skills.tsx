@@ -15,7 +15,7 @@ const categoryIcons = {
 const categoryColors = {
   current: 'from-purple to-purple-medium',
   learning: 'from-teal to-teal-medium',
-  future: 'from-purple-light to-teal-light',
+  future: 'from-amber-500 to-orange-500',
 };
 
 export default function Skills() {
@@ -32,7 +32,7 @@ export default function Skills() {
             <span className="bg-gradient-to-r from-purple to-teal bg-clip-text text-transparent">Skills & Expertise</span>
           </h2>
           <p className="text-center text-slate-600 dark:text-slate-400 mb-12 max-w-2xl mx-auto">
-            My technical skills and continuous learning journey
+            Full-stack web development skills paired with an actively growing AI & data science toolkit
           </p>
         </motion.div>
 

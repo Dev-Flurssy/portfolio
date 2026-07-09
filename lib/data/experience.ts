@@ -3,22 +3,24 @@ import { ExperienceItem } from '../types';
 export const experiences: ExperienceItem[] = [
   {
     id: 'neu-intern',
-    company: 'NEU',
-    role: 'Software Developer Intern',
+    company: 'Near East University',
+    role: 'Software Engineer Intern',
     period: 'Present',
-    description: 'Developing and maintaining software solutions, collaborating with cross-functional teams, and contributing to various development projects.',
+    description:
+      'Building administrative dashboards for user management and reporting. Supporting system testing, debugging, and documentation. Developing and maintaining web tools used by engineering teams, and collaborating closely with supervisors to deliver functional internal solutions on schedule.',
     technologies: ['Next.js', 'React', 'TypeScript', 'Node.js', 'Docker', 'GitHub'],
-    current: true
+    current: true,
   },
   {
     id: 'sanlam-allianz',
     company: 'Sanlam Allianz (Mauritius Branch)',
-    role: 'Software Intern',
+    role: 'Software Engineer Intern',
     period: '6 Months',
-    description: 'Built a Premium Calculator tool to automate agents\' insurance calculations, cutting down manual workload and errors. Enabled dynamic data input for automatic computation of premiums, interests, and profit/loss outcomes. Assisted with data entry and local storage management, ensuring accuracy in client records. Gained practical exposure to real-world software development and data operations.',
+    description:
+      'Developed a Premium Calculator tool that automated insurance calculations for agents — reducing manual workload and calculation errors significantly. Enabled dynamic data input for automatic computation of premiums, interests, and profit/loss outcomes. Maintained structured client data records, supported backend operations, assisted in documentation and workflow optimization, and collaborated with technical teams to deliver solutions on schedule.',
     technologies: ['JavaScript', 'Data Management', 'MS Office', 'Advanced Excel'],
-    current: false
-  }
+    current: false,
+  },
 ];
 
 export const volunteerExperience = [
@@ -27,40 +29,44 @@ export const volunteerExperience = [
     organization: 'She Builds Tech',
     role: 'Co-Founder',
     period: 'Ongoing',
-    description: 'Co-founded a growing platform that teaches and mentors African women in tech, especially those new to the field. Helping break gender stereotypes by offering guidance, workshops, and expert connections.',
-    current: true
+    description:
+      'Co-founded a growing platform that teaches and mentors African women in tech. Organized workshops, mentorship sessions, and community events. Coordinating communications with participants and mentors while supporting administrative and operational activities.',
+    current: true,
   },
   {
     id: 'devbyte',
     organization: 'DevByte Community (Africa)',
     role: 'Admin & Team Leader',
     period: 'Ongoing',
-    description: 'Lead a free Frontend Bootcamp training African students in web development fundamentals. Preparing notes, Coordinating instructors, mentoring learners, and managing community engagement.',
-    current: true
-  },
-  {
-    id: 'free-hype-lessons',
-    organization: 'Free Hype Lessons (Nigeria)',
-    role: 'Volunteer Tutor',
-    period: 'Past',
-    description: 'Taught Mathematics, Physics, and Chemistry to high school students for free, focusing on simplifying complex topics. Specialized in Mathematics, breaking concepts into relatable examples that boosted students\' confidence and understanding.',
-    current: false
-  },
-  {
-    id: 'rotaract',
-    organization: 'Rotaract Mauritius',
-    role: 'Volunteer',
-    period: 'Past',
-    description: 'Participated in community outreach and charity projects supporting local initiatives and underprivileged groups.',
-    current: false
+    description:
+      'Leading a free Frontend Bootcamp training African students in web development fundamentals. Coordinating instructors, mentoring learners, managing community communications and schedules, and tracking learner progress across multiple programs.',
+    current: true,
   },
   {
     id: 'gdg-nicosia',
     organization: 'Google Developer Group, Nicosia',
     role: 'Member',
     period: 'Recently Joined',
-    description: 'Engaging with the local developer ecosystem, learning, networking, and exploring collaboration opportunities.',
-    current: true
-  }
+    description:
+      'Engaging with the local developer ecosystem in Cyprus. Attending tech talks, networking with developers, and exploring collaboration opportunities in the AI and software engineering space.',
+    current: true,
+  },
+  {
+    id: 'free-hype-lessons',
+    organization: 'Free Hype Lessons (Nigeria)',
+    role: 'Volunteer Tutor',
+    period: 'Past',
+    description:
+      'Provided free academic support in Mathematics, Physics, and Chemistry to high school students. Specialized in simplifying complex topics using relatable examples, which boosted student confidence and performance.',
+    current: false,
+  },
+  {
+    id: 'rotaract',
+    organization: 'Rotaract Mauritius',
+    role: 'Volunteer',
+    period: 'Past',
+    description:
+      'Participated in community outreach and charity projects supporting local initiatives and underprivileged groups.',
+    current: false,
+  },
 ];
-

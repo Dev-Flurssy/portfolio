@@ -28,7 +28,7 @@ export default function Hero() {
                 Bisola Sodikat <span className="text-purple">Alayande</span>
               </h1>
               <p className="text-lg sm:text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-4 md:mb-6 font-medium">
-                Software Developer & Emerging AI Engineer
+                AI Engineering Student & Full-Stack Developer
               </p>
             </motion.div>
 
@@ -38,13 +38,14 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-sm sm:text-base md:text-lg text-slate-600 dark:text-slate-400 mb-6 md:mb-8 leading-relaxed"
             >
-              I'm a passionate software developer and an upcoming AI engineer focused on building exceptional digital experiences. 
-              Currently interning at <span className="text-purple font-semibold">NEU</span>, I create 
-              intuitive, scalable web applications using modern technologies like React, Next.js, 
-              Node.js, and TypeScript. I love turning complex problems into simple, beautiful solutions.
+              Artificial Intelligence Engineering student with experience building full-stack applications 
+              and AI-powered tools using <span className="text-purple font-semibold">Python, React, Node.js</span>, 
+              and data analysis libraries. Passionate about developing practical software that combines machine learning, 
+              data processing, and intuitive user interfaces to solve real-world problems.
               <br /><br />
-              I'm excited to advance deeper into AI engineering, solving real problems, improving accessibility, 
-              and making life a little easier (and hopefully a little smarter) with what I learn.
+              Currently learning <span className="text-purple font-semibold">data analysis with Pandas, NumPy, Matplotlib, and Seaborn</span>, 
+              I'm building projects in dashboard development, recommendation systems, and data visualization. 
+              <span className="font-semibold"> Actively seeking AI/ML or Full-Stack Developer internship opportunities in Cyprus or remotely worldwide.</span>
             </motion.p>
 
             <motion.div

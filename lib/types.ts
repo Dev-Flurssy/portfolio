@@ -2,11 +2,13 @@ export interface Project {
   id: string;
   name: string;
   description: string;
+  bullets?: string[];
   technologies: string[];
   linkType: 'demo' | 'github' | 'both';
   demoUrl?: string;
   githubUrl?: string;
   image?: string;
+  upcoming?: boolean;
 }
 
 export interface ExperienceItem {
