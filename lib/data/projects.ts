@@ -15,7 +15,7 @@ export const projects: Project[] = [
     technologies: ['React', 'Node.js', 'Python', 'Scikit-learn', 'NLP', 'TF-IDF', 'Cosine Similarity'],
     linkType: 'github',
     githubUrl: 'https://github.com/Dev-Flurssy/Careerlens',
-    image: '/images/profile.jpg',
+    image: '/images/Career.png',
     upcoming: true,
   },
   {
@@ -32,7 +32,7 @@ export const projects: Project[] = [
     technologies: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'React', 'JSON'],
     linkType: 'github',
     githubUrl: 'https://github.com/Dev-Flurssy/Scorevision',
-    image: '/images/Neu1.jpg',
+    image: '/images/Score.jpeg',
   },
   {
     id: 'neu-app',
