@@ -22,7 +22,7 @@ export interface ExperienceItem {
 }
 
 export interface SkillCategory {
-  category: 'current' | 'learning' | 'future';
+  category: 'current' | 'learning' | 'databases' | 'tools';
   label: string;
   skills: string[];
 }

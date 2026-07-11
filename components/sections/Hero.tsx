@@ -28,7 +28,7 @@ export default function Hero() {
                 Bisola Sodikat <span className="text-purple">Alayande</span>
               </h1>
               <p className="text-lg sm:text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-4 md:mb-6 font-medium">
-                AI Engineering Student & Full-Stack Developer
+                AI Engineering Student & Web Developer
               </p>
             </motion.div>
 
@@ -38,13 +38,16 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-sm sm:text-base md:text-lg text-slate-600 dark:text-slate-400 mb-6 md:mb-8 leading-relaxed"
             >
-              Artificial Intelligence Engineering student with experience building full-stack applications 
-              and AI-powered tools using <span className="text-purple font-semibold">Python, React, Node.js</span>, 
-              and data analysis libraries. Passionate about developing practical software that combines machine learning, 
-              data processing, and intuitive user interfaces to solve real-world problems.
+              I'm an Artificial Intelligence Engineering student passionate about building practical,
+              human‑centered AI solutions. With experience developing full‑stack applications and
+              AI‑powered tools using <span className="text-purple font-semibold">Python, React, Node.js</span>,
+              and data analysis libraries, my work focuses on combining machine learning, data processing,
+              and intuitive interfaces to solve real problems and make technology genuinely useful for
+              people and organizations.
               <br /><br />
-              Currently learning <span className="text-purple font-semibold">data analysis with Pandas, NumPy, Matplotlib, and Seaborn</span>, 
-              I'm building projects in dashboard development, recommendation systems, and data visualization.
+              I'm currently deepening my skills in{' '}
+              <span className="text-purple font-semibold">data analysis with Pandas, NumPy, Matplotlib, and Seaborn</span>{' '}
+              while building projects in dashboard development, recommendation systems, and intelligent data visualization.
             </motion.p>
 
             <motion.div

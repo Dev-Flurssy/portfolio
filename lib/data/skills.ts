@@ -30,19 +30,23 @@ export const skillCategories: SkillCategory[] = [
       'Scikit-learn',
       'Data Cleaning',
       'Data Visualization',
-      'Feature Engineering',
-      'TF-IDF',
-      'Cosine Similarity',
       'NLP (Basic)',
       'Machine Learning',
     ],
   },
   {
-    category: 'future',
-    label: 'Databases & Tools',
+    category: 'databases',
+    label: 'Databases',
     skills: [
       'MongoDB',
       'MySQL',
+      'Prisma ORM',
+    ],
+  },
+  {
+    category: 'tools',
+    label: 'Tools & Productivity',
+    skills: [
       'VS Code',
       'Postman',
       'Docker',

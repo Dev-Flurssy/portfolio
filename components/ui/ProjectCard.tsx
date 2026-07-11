@@ -100,10 +100,15 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
             {(project.linkType === 'github' || project.linkType === 'both') &&
               project.githubUrl &&
               (project.upcoming ? (
-                <span className="flex items-center gap-1.5 text-slate-400 dark:text-slate-500 text-sm cursor-not-allowed select-none">
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1.5 text-slate-600 dark:text-slate-300 hover:text-purple dark:hover:text-purple transition-colors text-sm font-medium"
+                >
                   <Github size={16} />
-                  <span className="font-medium">Coming Soon</span>
-                </span>
+                  <span>View Code</span>
+                </a>
               ) : (
                 <a
                   href={project.githubUrl}

@@ -5,17 +5,17 @@ export const experiences: ExperienceItem[] = [
     id: 'neu-intern',
     company: 'Near East University',
     role: 'Software Engineer Intern',
-    period: 'Present',
+    period: '2025 – 2026',
     description:
-      'Building administrative dashboards for user management and reporting. Supporting system testing, debugging, and documentation. Developing and maintaining web tools used by engineering teams, and collaborating closely with supervisors to deliver functional internal solutions on schedule.',
-    technologies: ['Next.js', 'React', 'TypeScript', 'Node.js', 'Docker', 'GitHub'],
-    current: true,
+      'During my internship at Near East University, I contributed to developing internal administrative tools and an AI‑powered note‑generation system used by lecturers and engineering teams. I worked with Next.js 15, TypeScript, Prisma ORM, and MongoDB to build core features and integrate AI‑driven content generation using Groq, enabling lecturers to create, edit, and export notes more efficiently. I also implemented secure authentication with NextAuth.js, including role‑based access control, and helped design administrative dashboards for user management and reporting. Alongside development, I supported system testing, debugging, and documentation while collaborating closely with supervisors to deliver reliable internal solutions on schedule.',
+    technologies: ['Next.js 15', 'TypeScript', 'Prisma ORM', 'MongoDB', 'Groq', 'NextAuth.js', 'React'],
+    current: false,
   },
   {
     id: 'sanlam-allianz',
     company: 'Sanlam Allianz (Mauritius Branch)',
     role: 'Software Engineer Intern',
-    period: '6 Months',
+    period: '2023 – 2024',
     description:
       'Developed a Premium Calculator tool that automated insurance calculations for agents — reducing manual workload and calculation errors significantly. Enabled dynamic data input for automatic computation of premiums, interests, and profit/loss outcomes. Maintained structured client data records, supported backend operations, assisted in documentation and workflow optimization, and collaborated with technical teams to deliver solutions on schedule.',
     technologies: ['JavaScript', 'Data Management', 'MS Office', 'Advanced Excel'],

@@ -44,29 +44,37 @@ export default function About() {
           >
             <h3 className="text-2xl font-bold text-purple mb-4">Who I Am</h3>
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-              I'm a proactive and detail-oriented <span className="font-semibold text-purple">Artificial Intelligence Engineering student</span> with 
-              a passion for building meaningful digital products. I enjoy solving problems, learning new technologies, 
-              and taking ownership of projects from idea to execution.
+              I'm a proactive and detail-oriented <span className="font-semibold text-purple">AI Engineering student</span> who
+              loves learning, building, and contributing to meaningful work. Driven by curiosity and a desire to expand
+              my abilities, I enjoy solving problems, exploring new technologies, and taking ownership of projects from
+              idea to execution. I genuinely love learning from people, interacting with others, and growing through
+              shared experiences and collaboration.
             </p>
 
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-              With hands-on experience developing dashboards, building tools, analyzing data, and working across both 
-              frontend and backend environments, I bring curiosity, adaptability, and a strong foundation in 
-              <span className="font-semibold"> Python, React, and data processing</span>. I'm currently deepening my 
-              skills in <span className="font-semibold">data analysis with Pandas, NumPy, Matplotlib, and Seaborn</span>, 
-              while building projects that combine machine learning and intuitive user interfaces.
+              With hands-on experience developing dashboards, analyzing data, and working across both frontend and
+              backend environments, I bring adaptability, initiative, and a strong foundation in
+              <span className="font-semibold"> Python, React, and machine learning fundamentals</span>. I'm currently
+              focused on strengthening my AI skills and building solutions that improve workflows, support
+              decision‑making, and create real impact for people and organizations.
             </p>
 
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-              I value clean, maintainable code and believe the best software is both technically sound and 
-              user-friendly. Outside of coding, I read widely across tech, leadership, and self-development, 
-              contribute to community initiatives, and mentor aspiring developers through DevByte and She Builds Tech.
+              My dream is to build useful, deep, and lasting AI solutions that touch lives, serve people, support
+              organizations, and leave meaningful impact wherever my work reaches.
             </p>
 
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-              When I'm not building things, you'll find me hiking, experimenting in the kitchen, brewing healthy teas, 
-              or unwinding with a good drama, little rituals that keep me balanced and creatively charged.<br/>
-              Thanks for stopping by!
+              I value clean, maintainable code and believe great software should be both technically sound and easy to
+              use. Outside of tech, I read widely across AI, tech, leadership, and self‑development, engage in
+              community initiatives, mentor others, sharing what I learn and helping people grow in their own journeys.
+            </p>
+
+            <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
+              When I'm not building, you'll find me hiking, experimenting in the kitchen, brewing healthy teas, or
+              unwinding with a good drama, little rituals that keep me balanced and creatively energized.
+              <br />
+              Thank you for stopping by.
             </p>
           </motion.div>
 
@@ -98,14 +106,14 @@ export default function About() {
                 <div className="w-2 h-2 bg-purple rounded-full mt-2"></div>
                 <div>
                   <p className="font-semibold text-slate-800 dark:text-slate-200">Current Focus</p>
-                  <p className="text-slate-600 dark:text-slate-400">Data analysis with Python, AI-powered tools, full-stack applications</p>
+                  <p className="text-slate-600 dark:text-slate-400">Data analysis with Python, AI‑powered tools, full‑stack applications</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-purple rounded-full mt-2"></div>
                 <div>
                   <p className="font-semibold text-slate-800 dark:text-slate-200">Target Roles</p>
-                  <p className="text-slate-600 dark:text-slate-400">AI/ML Intern · Full-Stack Developer · Software Engineer Intern</p>
+                  <p className="text-slate-600 dark:text-slate-400">AI/ML Intern · Web Developer Intern · AI Engineer Intern</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -118,8 +126,11 @@ export default function About() {
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-purple rounded-full mt-2"></div>
                 <div>
-                  <p className="font-semibold text-slate-800 dark:text-slate-200">Fun Fact</p>
-                  <p className="text-slate-600 dark:text-slate-400">I debug code better after a good rest and some tea</p>
+                  <p className="font-semibold text-slate-800 dark:text-slate-200">Fun Facts</p>
+                  <ul className="text-slate-600 dark:text-slate-400 space-y-1 mt-1">
+                    <li>I learn something new every day, whether from people, books, or random AI experiments.</li>
+                    <li>I connect best with people over good conversations, new ideas, and a cup of tea.</li>
+                  </ul>
                 </div>
               </div>
             </div>

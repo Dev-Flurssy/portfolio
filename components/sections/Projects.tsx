@@ -8,7 +8,7 @@ import ProjectCard from '../ui/ProjectCard';
 export default function Projects() {
   return (
     <section id="projects" className="py-20 px-4 bg-slate-50 dark:bg-slate-900">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -25,8 +25,8 @@ export default function Projects() {
           </p>
         </motion.div>
 
-        {/* 1 col mobile → 2 col tablet + desktop */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+        {/* 1 col mobile → 2 col tablet → 3 col desktop */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
           {projects.map((project, index) => (
             <ProjectCard key={project.id} project={project} index={index} />
           ))}
