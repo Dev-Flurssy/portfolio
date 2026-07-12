@@ -30,8 +30,9 @@ export const projects: Project[] = [
       'Demonstrated full-stack thinking across data processing, backend, and UI layers.',
     ],
     technologies: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'React', 'JSON'],
-    linkType: 'github',
+    linkType: 'both',
     githubUrl: 'https://github.com/Dev-Flurssy/Scorevision',
+    demoUrl: 'https://scorevision-delta.vercel.app/',
     image: '/images/Score.jpeg',
   },
   {
@@ -46,8 +47,9 @@ export const projects: Project[] = [
       'Used Prisma ORM with MongoDB for type-safe, scalable data access across the application.',
     ],
     technologies: ['Next.js 15', 'TypeScript', 'Groq AI', 'NextAuth.js', 'Prisma ORM', 'MongoDB', 'React'],
-    linkType: 'github',
+    linkType: 'both',
     githubUrl: 'https://github.com/Dev-Flurssy/neu',
+    demoUrl: 'https://neu-dawt.vercel.app/',
     image: '/images/Neu1.jpg',
   },
 ];
