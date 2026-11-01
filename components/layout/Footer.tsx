@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Github, Linkedin, Mail, Heart, ArrowUp } from 'lucide-react';
+import { Github, Linkedin, Mail, ArrowUp, PenLine } from 'lucide-react';
 import { contactInfo } from '@/lib/data/contact';
 import { motion } from 'framer-motion';
 
@@ -27,11 +27,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-purple to-teal bg-clip-text text-transparent mb-3">
-              Bisola Alayande
+            <h3 className="text-xl font-bold bg-gradient-to-r from-purple to-teal bg-clip-text text-transparent mb-3">
+              Bisola Sodikat Alayande
             </h3>
             <p className="text-slate-600 dark:text-slate-400 text-sm">
-              AI Engineering student and Full-Stack Developer building practical software that combines machine learning, data analysis, and intuitive web interfaces.
+              AI Engineering student building intelligent systems with Python, Machine Learning, and Data Science. Also a writer — documenting ideas, learning, and life on Substack.
             </p>
           </div>
 
@@ -39,7 +39,7 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-slate-800 dark:text-slate-200 mb-3">Quick Links</h4>
             <ul className="space-y-2">
-              {['Home', 'About', 'Experience', 'Projects', 'Skills', 'Contact'].map((item) => (
+              {['Home', 'About', 'Projects', 'Skills', 'Journey', 'Experience', 'Contact'].map((item) => (
                 <li key={item}>
                   <a
                     href={`#${item.toLowerCase()}`}
@@ -51,7 +51,7 @@ export default function Footer() {
               ))}
               <li>
                 <a
-                  href="/resume.pdf"
+                  href="/images/resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-purple font-semibold hover:underline text-sm"
@@ -97,9 +97,20 @@ export default function Footer() {
                   <Mail size={20} />
                 </a>
               )}
+              {contactInfo.substack && (
+                <a
+                  href={contactInfo.substack}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 bg-slate-200 dark:bg-slate-700 rounded-lg hover:bg-orange-500 hover:text-white transition-all"
+                  aria-label="Substack"
+                >
+                  <PenLine size={20} />
+                </a>
+              )}
             </div>
             <p className="text-slate-600 dark:text-slate-400 text-sm mt-4">
-              Available for freelance work and full-time opportunities
+              Available for AI internships and part-time roles
             </p>
           </div>
         </div>
@@ -109,9 +120,6 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-slate-600 dark:text-slate-400 text-sm text-center md:text-left">
               © {new Date().getFullYear()} Bisola Sodikat Alayande. All rights reserved.
-            </p>
-            <p className="text-slate-600 dark:text-slate-400 text-sm flex items-center gap-1">
-              Built with <Heart className="text-red-500 inline" size={16} fill="currentColor" /> using Next.js & Tailwind CSS
             </p>
           </div>
         </div>

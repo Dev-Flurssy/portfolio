@@ -8,9 +8,10 @@ import ThemeToggle from '../ui/ThemeToggle';
 const navItems = [
   { label: 'Home', href: '#home' },
   { label: 'About', href: '#about' },
-  { label: 'Experience', href: '#experience' },
   { label: 'Projects', href: '#projects' },
   { label: 'Skills', href: '#skills' },
+  { label: 'Journey', href: '#journey' },
+  { label: 'Experience', href: '#experience' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -74,7 +75,7 @@ export default function Navigation() {
               </a>
             ))}
             <a
-              href="/resume.pdf"
+              href="/images/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-semibold px-3 py-1.5 border border-purple text-purple rounded-lg hover:bg-purple hover:text-white transition-all"
@@ -123,7 +124,7 @@ export default function Navigation() {
                 </a>
               ))}
               <a
-                href="/resume.pdf"
+                href="/images/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block py-2 text-sm font-semibold text-purple hover:underline"

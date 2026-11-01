@@ -44,35 +44,30 @@ export default function About() {
           >
             <h3 className="text-2xl font-bold text-purple mb-4">Who I Am</h3>
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-              I'm a proactive and detail-oriented <span className="font-semibold text-purple">AI Engineering student</span> who
-              loves learning, building, and contributing to meaningful work. Driven by curiosity and a desire to expand
-              my abilities, I enjoy solving problems, exploring new technologies, and taking ownership of projects from
-              idea to execution. I genuinely love learning from people, interacting with others, and growing through
-              shared experiences and collaboration.
+              I'm an <span className="font-semibold text-purple">AI Engineering student</span> focused on building practical
+              machine learning and data-driven solutions.
             </p>
 
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-              With hands-on experience developing dashboards, analyzing data, and working across both frontend and
-              backend environments, I bring adaptability, initiative, and a strong foundation in
-              <span className="font-semibold"> Python, React, and machine learning fundamentals</span>. I'm currently
-              focused on strengthening my AI skills and building solutions that improve workflows, support
-              decision‑making, and create real impact for people and organizations.
+              My interests include <span className="font-semibold">machine learning, predictive modeling, computer vision,
+              natural language processing, and MLOps</span>. I enjoy transforming raw data into meaningful insights and
+              building intelligent systems that solve real-world problems.
             </p>
 
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-              My dream is to build useful, deep, and lasting AI solutions that touch lives, serve people, support
-              organizations, and leave meaningful impact wherever my work reaches.
+              Alongside AI, I maintain strong software engineering foundations in{' '}
+              <span className="font-semibold">Python, SQL, Git, and modern development practices</span>, allowing me to
+              design, develop, and deploy end-to-end AI applications.
             </p>
 
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-              I value clean, maintainable code and believe great software should be both technically sound and easy to
-              use. Outside of tech, I read widely across AI, tech, leadership, and self‑development, engage in
-              community initiatives, mentor others, sharing what I learn and helping people grow in their own journeys.
+              I continuously document my learning journey through hands-on projects, experiments, and open-source
+              repositories.
             </p>
 
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
               When I'm not building, you'll find me hiking, experimenting in the kitchen, brewing healthy teas, or
-              unwinding with a good drama, little rituals that keep me balanced and creatively energized.
+              unwinding with a good drama — little rituals that keep me balanced and creatively energized.
               <br />
               Thank you for stopping by.
             </p>
@@ -84,7 +79,7 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
             viewport={{ once: true }}
-            className="bg-white dark:bg-slate-800 rounded-lg p-8 shadow-lg border border-slate-200 dark:border-slate-700"
+            className="bg-white dark:bg-slate-800 rounded-lg p-5 sm:p-8 shadow-lg border border-slate-200 dark:border-slate-700"
           >
             <h3 className="text-2xl font-bold text-purple mb-6">Quick Facts</h3>
             <div className="space-y-4">
@@ -106,21 +101,21 @@ export default function About() {
                 <div className="w-2 h-2 bg-purple rounded-full mt-2"></div>
                 <div>
                   <p className="font-semibold text-slate-800 dark:text-slate-200">Current Focus</p>
-                  <p className="text-slate-600 dark:text-slate-400">Data analysis with Python, AI‑powered tools, full‑stack applications</p>
+                  <p className="text-slate-600 dark:text-slate-400">Machine learning, NLP, data science, and building AI-powered applications</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-purple rounded-full mt-2"></div>
                 <div>
                   <p className="font-semibold text-slate-800 dark:text-slate-200">Target Roles</p>
-                  <p className="text-slate-600 dark:text-slate-400">AI/ML Intern · Web Developer Intern · AI Engineer Intern</p>
+                  <p className="text-slate-600 dark:text-slate-400">AI/ML Intern · Machine Learning Engineer Intern · AI Research Intern</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-purple rounded-full mt-2"></div>
                 <div>
                   <p className="font-semibold text-slate-800 dark:text-slate-200">Languages</p>
-                  <p className="text-slate-600 dark:text-slate-400">English (Fluent)</p>
+                  <p className="text-slate-600 dark:text-slate-400">English (Fluent) · Turkish (Learning)</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">

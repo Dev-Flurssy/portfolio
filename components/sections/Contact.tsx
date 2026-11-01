@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { contactInfo } from '@/lib/data/contact';
-import { Mail, Github, Linkedin, Send, MessageCircle } from 'lucide-react';
+import { Mail, Github, Linkedin, Send, MessageCircle, PenLine } from 'lucide-react';
 import Button from '../ui/Button';
 
 export default function Contact() {
@@ -21,8 +21,8 @@ export default function Contact() {
             Let's Work <span className="text-purple">Together</span>
           </h2>
           <p className="text-base md:text-lg lg:text-xl text-slate-600 dark:text-slate-400 mb-6 md:mb-8 max-w-2xl mx-auto px-4">
-            I'm currently available for freelance work and full-time opportunities. 
-            Have a project in mind? Let's make it happen!
+            I'm currently available for AI internships and part-time roles.
+            Open to collaboration, mentorship, and building things that matter.
           </p>
 
           {/* Hire Me CTA Box */}
@@ -34,12 +34,12 @@ export default function Contact() {
             className="bg-white dark:bg-slate-800 rounded-2xl p-6 md:p-8 lg:p-12 shadow-2xl border border-purple/20 mb-8 md:mb-12"
           >
             <div className="inline-block px-4 py-2 bg-purple/10 text-purple rounded-full text-sm font-semibold mb-4">
-              Available for Hire
+              Available for AI Internships & Part-Time Roles
             </div>
-            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-3 md:mb-4">Ready to Start Your Project?</h3>
+            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-3 md:mb-4">Let's Build Something Together</h3>
             <p className="text-sm md:text-base text-slate-600 dark:text-slate-400 mb-6 md:mb-8 max-w-xl mx-auto px-4">
-              Whether you need a full-stack developer, a tutor,  or someone to bring your 
-              ideas to life, I'm here to help. Let's discuss how we can work together.
+              Whether you're looking for an AI intern, want to collaborate on a project,
+              or just want to connect — I'd love to hear from you.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -105,6 +105,18 @@ export default function Contact() {
                 >
                   <Linkedin className="text-purple group-hover:text-purple-dark transition-colors" size={32} />
                   <span className="text-sm font-medium text-slate-700 dark:text-slate-300">LinkedIn</span>
+                </motion.a>
+              )}
+              {contactInfo.substack && (
+                <motion.a
+                  href={contactInfo.substack}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.1, y: -5 }}
+                  className="flex flex-col items-center gap-2 p-4 bg-white dark:bg-slate-800 rounded-lg shadow-md hover:shadow-xl transition-all border border-slate-200 dark:border-slate-700 group"
+                >
+                  <PenLine className="text-orange-500 group-hover:text-orange-600 transition-colors" size={32} />
+                  <span className="text-sm font-medium text-slate-700 dark:text-slate-300">Substack</span>
                 </motion.a>
               )}
             </div>

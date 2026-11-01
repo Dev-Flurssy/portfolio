@@ -23,32 +23,60 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <h2 className="text-base md:text-lg lg:text-xl text-purple font-semibold mb-2">Hello, I'm</h2>
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4 leading-tight">
+              <h2 className="text-base md:text-lg lg:text-xl text-purple font-semibold mb-2">Hi, I'm</h2>
+              <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4 leading-tight">
                 Bisola Sodikat <span className="text-purple">Alayande</span>
               </h1>
-              <p className="text-lg sm:text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-4 md:mb-6 font-medium">
-                AI Engineering Student & Web Developer
+              <p className="text-base sm:text-lg md:text-xl text-slate-600 dark:text-slate-300 mb-4 md:mb-6 font-medium leading-snug">
+                AI Engineering Student &nbsp;|&nbsp; Machine Learning Developer &nbsp;|&nbsp; Writer &nbsp;|&nbsp; Reader
               </p>
             </motion.div>
 
-            <motion.p
+            {/* Mission statement */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.35 }}
+              className="mb-4 md:mb-5"
+            >
+              <p className="text-sm sm:text-base italic text-slate-500 dark:text-slate-400 border-l-4 border-purple pl-4 leading-relaxed">
+                My goal is to become a world-class AI Engineer by combining strong software engineering fundamentals
+                with machine learning, data science, and intelligent system development.
+              </p>
+            </motion.div>
+
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="text-sm sm:text-base md:text-lg text-slate-600 dark:text-slate-400 mb-6 md:mb-8 leading-relaxed"
+              className="mb-6 md:mb-8"
             >
-              I'm an Artificial Intelligence Engineering student passionate about building practical,
-              human‑centered AI solutions. With experience developing full‑stack applications and
-              AI‑powered tools using <span className="text-purple font-semibold">Python, React, Node.js</span>,
-              and data analysis libraries, my work focuses on combining machine learning, data processing,
-              and intuitive interfaces to solve real problems and make technology genuinely useful for
-              people and organizations.
-              <br /><br />
-              I'm currently deepening my skills in{' '}
-              <span className="text-purple font-semibold">data analysis with Pandas, NumPy, Matplotlib, and Seaborn</span>{' '}
-              while building projects in dashboard development, recommendation systems, and intelligent data visualization.
-            </motion.p>
+              <p className="text-sm sm:text-base md:text-lg text-slate-600 dark:text-slate-400 mb-4 leading-relaxed">
+                An AI Engineering student passionate about{' '}
+                <span className="text-purple font-semibold">machine learning, data science, and intelligent software systems</span>.
+              </p>
+              <p className="text-sm sm:text-base md:text-lg text-slate-600 dark:text-slate-400 mb-5 leading-relaxed">
+                I enjoy building AI-powered applications, training predictive models, analyzing data,
+                and documenting my journey as I grow into a professional AI Engineer.
+              </p>
+              <p className="text-sm sm:text-base font-semibold text-slate-700 dark:text-slate-300 mb-2">
+                Currently exploring:
+              </p>
+              <ul className="space-y-1 text-sm sm:text-base text-slate-600 dark:text-slate-400">
+                {[
+                  'Machine Learning',
+                  'Deep Learning',
+                  'Natural Language Processing',
+                  'Data Science',
+                  'MLOps & AI Deployment',
+                ].map((topic) => (
+                  <li key={topic} className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-purple inline-block flex-shrink-0" />
+                    {topic}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -56,13 +84,16 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center lg:justify-start"
             >
-              <Button href="#contact" variant="primary" className="w-full sm:w-auto">
-                <Mail className="inline mr-2" size={18} />
-                Hire Me
+              <Button href="#projects" variant="primary" className="w-full sm:w-auto">
+                View AI Projects
               </Button>
-              <Button href="/resume.pdf" variant="secondary" className="w-full sm:w-auto">
+              <Button href="/images/resume.pdf" variant="secondary" className="w-full sm:w-auto" download>
                 <Download className="inline mr-2" size={18} />
-                Download CV
+                Download Resume
+              </Button>
+              <Button href="#contact" variant="outline" className="w-full sm:w-auto">
+                <Mail className="inline mr-2" size={18} />
+                Contact Me
               </Button>
             </motion.div>
           </motion.div>
@@ -77,19 +108,18 @@ export default function Hero() {
             <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-96">
               <div className="absolute inset-0 bg-gradient-to-br from-purple via-purple-medium to-teal rounded-full animate-pulse opacity-20"></div>
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-purple shadow-2xl bg-gradient-to-br from-purple via-purple-medium to-teal flex items-center justify-center">
-                {/* Placeholder - replace with actual image */}
+                {/* Fallback initials — sits behind the image */}
+                <div className="absolute inset-0 flex items-center justify-center text-white text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold z-0">BA</div>
                 <Image
-                  src="/images/profile.jpg"
+                  src="/images/profile.jpeg"
                   alt="Bisola Sodikat Alayande"
                   fill
-                  className="object-cover"
+                  className="object-cover z-10"
                   priority
                   onError={(e) => {
-                    // Fallback to initials if image doesn't exist
                     e.currentTarget.style.display = 'none';
                   }}
                 />
-                <div className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold">BA</div>
               </div>
             </div>
           </motion.div>
