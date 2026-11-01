@@ -14,20 +14,33 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Bisola Sodikat Alayande - Software Developer",
-  description: "Portfolio of Bisola Sodikat Alayande, a software developer specializing in React, Node.js, Next.js, and TypeScript. Currently interning at NEU as a Software Developer.",
-  keywords: ["Bisola Alayande", "Software Developer", "React", "Node.js", "Next.js", "TypeScript", "Web Development", "Portfolio"],
+  title: "Bisola Sodikat Alayande | AI Engineering Student & Machine Learning Developer",
+  description: "Bisola Sodikat Alayande | AI Engineering Student, Machine Learning Developer, and Data Science Enthusiast building intelligent systems with Python, Machine Learning, and Data Analytics.",
+  keywords: [
+    "Bisola Alayande",
+    "AI Engineering Student",
+    "Machine Learning Developer",
+    "Data Science",
+    "Python",
+    "Scikit-Learn",
+    "NLP",
+    "Deep Learning",
+    "MLOps",
+    "AI Portfolio",
+    "Intelligent Systems",
+    "Data Analytics",
+  ],
   authors: [{ name: "Bisola Sodikat Alayande" }],
   openGraph: {
-    title: "Bisola Sodikat Alayande - Software Developer",
-    description: "Portfolio showcasing projects and experience in full-stack web development",
+    title: "Bisola Sodikat Alayande | AI Engineering Student & Machine Learning Developer",
+    description: "AI Engineering Student building intelligent systems with Python, Machine Learning, and Data Analytics.",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bisola Sodikat Alayande - Software Developer",
-    description: "Portfolio showcasing projects and experience in full-stack web development",
+    title: "Bisola Sodikat Alayande | AI Engineering Student & Machine Learning Developer",
+    description: "AI Engineering Student building intelligent systems with Python, Machine Learning, and Data Analytics.",
   },
 };
 

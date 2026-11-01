@@ -2,6 +2,26 @@ import { ExperienceItem } from '../types';
 
 export const experiences: ExperienceItem[] = [
   {
+    id: 'ds-foundations-lab',
+    company: 'Personal AI Lab — GitHub',
+    role: 'Data Science Foundations',
+    period: '2026 – Present',
+    description:
+      'Developed hands-on projects and exercises using NumPy, Pandas, and Matplotlib. Performed data cleaning, transformation, and exploratory data analysis on real-world datasets. Built statistical and visualization workflows to extract meaningful insights, and documented all learning progress through reproducible Jupyter notebooks.',
+    technologies: ['Python', 'NumPy', 'Pandas', 'Matplotlib', 'Statistics', 'EDA', 'Jupyter Notebook'],
+    current: true,
+  },
+  {
+    id: 'ml-lab-experience',
+    company: 'Personal AI Lab — GitHub',
+    role: 'AI & Machine Learning Lab',
+    period: '2026 – Present',
+    description:
+      'Designed and implemented machine learning projects using Python and Scikit-Learn. Applied data preprocessing, feature engineering, and model evaluation techniques across classification and regression problems. Built predictive models for real-world datasets and maintained detailed experimentation notes, performance analysis, and project documentation.',
+    technologies: ['Python', 'Scikit-Learn', 'Machine Learning', 'NLP', 'Feature Engineering', 'Model Evaluation'],
+    current: true,
+  },
+  {
     id: 'neu-intern',
     company: 'Near East University',
     role: 'Software Engineer Intern',
@@ -24,6 +44,24 @@ export const experiences: ExperienceItem[] = [
 ];
 
 export const volunteerExperience = [
+  {
+    id: 'neu-ai-club',
+    organization: 'AI Club — Near East University',
+    role: 'Member',
+    period: '2026 – Present',
+    description:
+      'Active member of the NEU AI Club, engaging with fellow students and faculty on AI research topics, attending technical sessions, and participating in AI-related discussions and activities within the university community.',
+    current: true,
+  },
+  {
+    id: 'levelup-cyprus',
+    organization: 'LevelUp Community Cyprus',
+    role: 'Admin, Member & Frontend Developer',
+    period: '2026 – Present',
+    description:
+      'Admin and member of LevelUp, a youth-driven community in Cyprus empowering young people to discover opportunities and develop skills. Contributing as a Frontend Developer on the official LevelUp website — a professional, scalable platform representing the organization\'s identity, showcasing activities, and connecting the community with programs, competitions, and partnerships. The website covers LevelUp\'s full ecosystem including NEXT by LevelUp, a dedicated branch for practical learning experiences, competitions, and hackathons.',
+    current: true,
+  },
   {
     id: 'she-builds-tech',
     organization: 'She Builds Tech',

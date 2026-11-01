@@ -22,7 +22,7 @@ export interface ExperienceItem {
 }
 
 export interface SkillCategory {
-  category: 'current' | 'learning' | 'databases' | 'tools';
+  category: 'current' | 'learning' | 'databases' | 'tools' | 'specializations';
   label: string;
   skills: string[];
 }
@@ -32,4 +32,5 @@ export interface ContactInfo {
   github?: string;
   linkedin?: string;
   whatsapp?: string;
+  substack?: string;
 }
